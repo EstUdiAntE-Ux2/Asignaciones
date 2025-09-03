@@ -1,7 +1,6 @@
 bolsa = []
 
 def mostrar_menu():
-    print("\n--- MENÚ ---")
     print("1. Insertar elementos (cantidad definida por el usuario)")
     print("2. Contar elementos en el array")
     print("3. Verificar si el array está vacío")
@@ -71,3 +70,4 @@ while True:
 
         case _:
             print("Opción no válida, intenta de nuevo.")
+
